@@ -73,5 +73,5 @@ def main():
 
     conn.commit()
     conn.close()
-if _name_ == "_main_":
+if __name__ == "__main__":
     main()
